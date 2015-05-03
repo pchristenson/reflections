@@ -10,3 +10,23 @@ the repository? What value do you think it offers?
 
 A: It acts as an intermediary between the two.  It allows things to be staged
 together and then added as a group.
+
+Reflections Q3: How can you use the staging area to make sure you have one commit per logical change?
+
+A: You can use git diff —staged to see the changes in all the staged files and make sure that they are only for one thing at a time
+
+Reflections Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When experimenting with new features.  When adding a new feature that is incompatible with other systems until they make their own changes, so you want to develop the new feature on a new branch until the other system has caught up.  Etc.
+
+Reflections Q5: How do the diagrams help you visualize the branch structure?
+
+A: Well, by visualizing it you can easily see the different nodes, parents, children, etc. and so you can see where branches meet or differ and which nodes are unreachable.
+
+Reflections Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The changes are combined together into one branch.  It is represented that way to show the two separate branches merging into one.
+
+Reflections Q7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros: It saves some work and allows you to focus on the differences.  Cons: It can get confusing and it could misinterpret your true intentions.
