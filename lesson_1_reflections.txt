@@ -1,0 +1,51 @@
+Reflection Q1: How did viewing a diff between two versions help you spot the bug?
+
+A: It helps isolate my attention just to the differences in the two files and
+ignores the rest.
+
+Reflection Q2: How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+A: I can track all the changes that were made to a project which would help me
+determine when features and/or bugs were introduced, only pay attention to the
+changes and not waste time wading through all the stuff that didn't change, give
+me a path to go back to working versions if I make a mistake, help me learn what
+others are working on and how they accomplished certain changes, and just save
+a lot of time by not getting confused and accidentally breaking things and then
+needed to fix them without knowing where to look.
+
+Reflection Q3: What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions automatically saved,
+like Google docs does?
+
+A: Pros: Much more control of what gets saved, meaningful changes, named changes
+that can describe what happened, saves at logical times,
+
+Cons: You could forget to save when you should have
+
+Reflection Q4: Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+A: I think Git allows saving multiple files in one commit so you can track
+changes together - track coordinated changes - know what files are involved in
+adding a particular feature.  This makes code maintenance / feature addition
+much easier.
+
+Reflection Q5: How can you use the commands git log and git diff to view the
+history of files?
+
+A: You can use git log to see when changes were made and read the description
+typed in by the committer.  You can use git diff to see the actual changes from
+one version to another.
+
+Reflection Q6: How might using version control make you more confident to make
+changes that could break something?
+
+A: Because you always know you have a safety version that allows you to revert
+back to a version you are more comfortable with
+
+Reflection Q7: Now that you have your workspace set up, what do you want to try
+using Git for?
+
+A: I'll use it for my iOS projects!!  :-)
