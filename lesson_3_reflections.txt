@@ -1,0 +1,5 @@
+Reflections Q1: When would you want to use a remote repository rather than keeping all your work local?
+
+A: I feel like it is almost always better to use a remote one.  It is not susceptible to system crashes, it allows
+other people to work on the project if you choose, it works on different machines if you have multiple machines or
+if you change computers.  It has many advantages.
