@@ -7,3 +7,7 @@ if you change computers.  It has many advantages.
 Reflections Q2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A: Because you might not want the latest changes yet.  Also, somebody may have checked something in that caused problems.  If it was a multi-user project, files are getting checked in all the time and downloading them all immediately may cause instability.
+
+Reflections Q3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: Forks make a copy of a git repository on Github and place it in your github account.  Clones make a copy of a repository on your local repository whether it comes from Github or your own local repository.  Branches make a different branch of the code on your local repository so you can make changes without changing the original branch.  You can later merge them.  Use forks when you want a copy on Github, clone when you want to get it to your computer, and branch when you want to explore different ideas.
