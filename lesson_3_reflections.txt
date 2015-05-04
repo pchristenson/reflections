@@ -19,3 +19,7 @@ A: So your system can tell you what changed from the last time you synched with 
 Reflections Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: Collaboration without Git or github would require either painful manual methods like e-mail or dropbox or another version control system.  Almost everything would be harder.
+
+Reflections Q6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: When you are working with others and you want to make sure your changes will be accepted by others
