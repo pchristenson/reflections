@@ -3,3 +3,7 @@ Reflections Q1: When would you want to use a remote repository rather than keepi
 A: I feel like it is almost always better to use a remote one.  It is not susceptible to system crashes, it allows
 other people to work on the project if you choose, it works on different machines if you have multiple machines or
 if you change computers.  It has many advantages.
+
+Reflections Q2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: Because you might not want the latest changes yet.  Also, somebody may have checked something in that caused problems.  If it was a multi-user project, files are getting checked in all the time and downloading them all immediately may cause instability.
