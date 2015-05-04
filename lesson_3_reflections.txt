@@ -11,3 +11,7 @@ A: Because you might not want the latest changes yet.  Also, somebody may have c
 Reflections Q3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A: Forks make a copy of a git repository on Github and place it in your github account.  Clones make a copy of a repository on your local repository whether it comes from Github or your own local repository.  Branches make a different branch of the code on your local repository so you can make changes without changing the original branch.  You can later merge them.  Use forks when you want a copy on Github, clone when you want to get it to your computer, and branch when you want to explore different ideas.
+
+Reflections Q4: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: So your system can tell you what changed from the last time you synched with the remote repository.
